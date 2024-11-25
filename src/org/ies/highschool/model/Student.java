@@ -14,6 +14,10 @@ public class Student {
         this.direccion = direccion;
     }
 
+    public void showInfo() {
+        System.out.println("Nombre: " + nombre + "Apellido: " + apellido + "Direccion: " + direccion);
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -59,9 +63,4 @@ public class Student {
                 ", direccion='" + direccion + '\'' +
                 '}';
     }
-
-    public void showInfo() {
-        System.out.println("Nombre: " + nombre + "Apellido: " + apellido + "Direccion: " + direccion);
-    }
-
 }

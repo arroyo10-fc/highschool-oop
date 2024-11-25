@@ -12,7 +12,7 @@ public class StudentReader {
     }
 
     public Student read() {
-        System.out.println("Introduce los datos del los estudiante");
+        System.out.println("Introduce los datos del estudiante");
         System.out.println("Nombre:");
         String nombre = scanner.nextLine();
         System.out.println("Apellido:");
